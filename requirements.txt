@@ -1,2 +1,5 @@
 pymupdf
 langchain
+openai
+python-dotenv
+pydantic
