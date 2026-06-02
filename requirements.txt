@@ -1,5 +1,31 @@
-pymupdf
-langchain
-openai
-python-dotenv
-pydantic
+# PDF Processing
+pymupdf>=1.23.0
+
+# LLM & Embeddings
+google-generativeai>=0.3.0
+
+# Text Processing
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# API Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Data Validation
+pydantic>=2.0.0
+
+# Database
+neo4j>=5.14.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Utilities
+numpy>=1.24.0
+requests>=2.31.0
+
+# Development (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
